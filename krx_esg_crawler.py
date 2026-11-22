@@ -420,7 +420,7 @@ class KRXESGCrawler:
                     break
 
             # E/S/G
-            esg_ind = re.findall(r"([환경사회지배구조])[^<]*?([SABCD]\+?)", content)
+            esg_ind = re.findall(r"(환경|사회|지배구조)[^<]*?([SABCD]\+?)", content)
             for k, v in esg_ind:
                 if k == "환경":
                     data["KCGS_E"] = v

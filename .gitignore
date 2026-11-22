@@ -18,6 +18,8 @@ output/
 data/raw/
 # crawler outputs
 krx_esg_result*.csv
+krx_esg_ratings_*.csv
+*_failed.csv
 krx_checkpoint.json
 debug_dump/
 *.xlsx
